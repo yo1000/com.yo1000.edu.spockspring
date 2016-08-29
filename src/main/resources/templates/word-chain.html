@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>しりとり</title>
+</head>
+<body>
+<div>
+    <em th:text=""></em>
+    <form method="post">
+        <input type="text" name="word">
+        <button>送信</button>
+    </form>
+    <div>
+        <ul>
+            <li th:each="word in $words" th:text="$word">word</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
