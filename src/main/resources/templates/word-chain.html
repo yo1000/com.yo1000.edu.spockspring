@@ -6,14 +6,23 @@
 </head>
 <body>
 <div>
-    <em th:text=""></em>
-    <form method="post">
-        <input type="text" name="word">
+    <h2>最後の単語</h2>
+    <em th:text="${words[0].text}">たんご</em>
+    <hr>
+    <h2>次の単語</h2>
+    <form method="post" th:object="${word}">
+        <input type="text" name="text" th:field="*{text}">
         <button>送信</button>
+
+        <div th:if="${#fields.hasAnyErrors()}">
+            <p th:each="error : ${#fields.allErrors()}" th:text="${error}">エラーメッセージ</p>
+        </div>
     </form>
+    <hr>
+    <h2>過去の単語履歴</h2>
     <div>
         <ul>
-            <li th:each="word in $words" th:text="$word">word</li>
+            <li th:each="w : ${words}" th:text="${w.text}">word</li>
         </ul>
     </div>
 </div>

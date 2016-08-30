@@ -1,3 +1,10 @@
+spring:
+  messages:
+    basename: i18n/messages
+  thymeleaf:
+    mode: HTML
+    cache: false
+
 mybatis:
   configuration:
     useColumnLabel: true

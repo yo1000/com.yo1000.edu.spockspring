@@ -13,6 +13,6 @@ import java.util.List;
 @Mapper
 public interface WordRepository {
     List<Word> findAllOrderByCreatedDesc();
-    int save(String word);
+    int save(String wordText);
 }
 

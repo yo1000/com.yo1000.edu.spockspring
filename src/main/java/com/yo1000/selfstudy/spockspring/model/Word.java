@@ -1,11 +1,14 @@
 package com.yo1000.selfstudy.spockspring.model;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 import java.util.Date;
 
 /**
  * @author yo1000
  */
 public class Word {
+    @NotEmpty
     private String text;
     private Date created;
 

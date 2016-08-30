@@ -13,11 +13,11 @@
             CREATED DESC
     </select>
     <insert id="save" parameterType="java.lang.String">
-        INSERT INTO NOTE (
-            WORD,
+        INSERT INTO WORD (
+            TEXT,
             CREATED
         ) VALUES (
-            #{word},
+            #{wordText},
             CURRENT_TIMESTAMP()
         )
     </insert>

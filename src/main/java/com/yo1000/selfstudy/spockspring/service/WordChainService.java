@@ -6,7 +6,6 @@ import com.yo1000.selfstudy.spockspring.util.WordSplitter;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 /**
  * @author yo1000
@@ -26,18 +25,12 @@ public class WordChainService {
     }
 
     public char chain(String wordText) {
-        if (Optional.ofNullable(wordText).orElse("").isEmpty()) {
-            throw new WordChainException("wordText is empty");
-        }
-
-        List<Word> words = getWordRepository().findAllOrderByCreatedDesc();
-
-        if (getWordSplitter().getTail(words.get(0).getText()) != getWordSplitter().getHead(wordText)) {
-            throw new WordChainException("wordText can not chain");
-        }
-
         getWordRepository().save(wordText);
         return getWordSplitter().getTail(wordText);
+    }
+
+    public boolean chainable(String from, String to) {
+        return getWordSplitter().getTail(from) == getWordSplitter().getHead(to);
     }
 
     public WordRepository getWordRepository() {
@@ -48,7 +41,9 @@ public class WordChainService {
         return wordSplitter;
     }
 
-    public static class WordChainException extends IllegalArgumentException {
+    public static class WordChainException extends RuntimeException {
+        public WordChainException() {}
+
         public WordChainException(String s) {
             super(s);
         }
