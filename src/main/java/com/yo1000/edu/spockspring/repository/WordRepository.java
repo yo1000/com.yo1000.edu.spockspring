@@ -1,6 +1,6 @@
-package com.yo1000.selfstudy.spockspring.repository;
+package com.yo1000.edu.spockspring.repository;
 
-import com.yo1000.selfstudy.spockspring.model.Word;
+import com.yo1000.edu.spockspring.model.Word;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

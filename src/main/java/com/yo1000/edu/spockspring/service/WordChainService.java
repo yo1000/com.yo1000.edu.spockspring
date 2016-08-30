@@ -1,8 +1,8 @@
-package com.yo1000.selfstudy.spockspring.service;
+package com.yo1000.edu.spockspring.service;
 
-import com.yo1000.selfstudy.spockspring.model.Word;
-import com.yo1000.selfstudy.spockspring.repository.WordRepository;
-import com.yo1000.selfstudy.spockspring.util.WordSplitter;
+import com.yo1000.edu.spockspring.model.Word;
+import com.yo1000.edu.spockspring.repository.WordRepository;
+import com.yo1000.edu.spockspring.util.WordSplitter;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

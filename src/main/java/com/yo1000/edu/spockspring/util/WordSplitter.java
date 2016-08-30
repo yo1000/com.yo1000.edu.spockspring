@@ -1,4 +1,4 @@
-package com.yo1000.selfstudy.spockspring.util;
+package com.yo1000.edu.spockspring.util;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.yo1000.selfstudy.spockspring.model;
+package com.yo1000.edu.spockspring.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

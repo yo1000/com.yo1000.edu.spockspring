@@ -1,4 +1,4 @@
-package com.yo1000.selfstudy.spockspring;
+package com.yo1000.edu.spockspring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

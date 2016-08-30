@@ -1,21 +1,21 @@
-                                         ▐▓▀▀▀▀▀▀▀▓██▄ ║▓▀▀▀▀▀▓▓▀▀▀█▓▄          
-                                         ▐▓       ⁿ▀▓█∩║▓   ▄▓▓ⁿ   ░▓█          
-                                  _______▄▓       _▄▓█▄√▓_, ▀▀▓    ░▓█          
-                  ▐▄▄j            $▓▓``````▄∩   +▄▓▀```"▓∩   ▐▓    ▓▓█          
-                 ██▓▓██           $▓ *²           ▀y√  ║▓▓▓√√▄▓√√√▓███          
-               ╔██▓▓▓▓▓█∩         $▓_               `   `_▐▓█████████__________ 
-              √▄████████▄▄▄       $▓▓▄√√√√√ √√√    ╓√√√√√█▓██j ▓▀▀▀▀▀▀▓▓█▓▀▀▓▓▓▄
-       ___█████▓▓██▓▓▓▓▓▓▓▓█▄      ▐██████▓░░▀    ▓█▓███████╙  ▓__ __        █▓█
-     ╓▄██████████████▓▓▓▓▓█▀▀            ▐▓       *▀▓█∩   ╓▄▄▄▄▓▓█▄*'        ░▓█
-    __█▓▓▓████████████▓▓██        ¥░░░░░░░▓░∩     _▐▓▀░░░░█▓   ▓__________$██▓██
- +▄▄██▓▓▓▓███████▀ª ███▀          $▓  ╙º `ººy▄    ººº    ⁿ▀▓   º█████████████▀▀▀
-██▓▓██▓▓▓▓▓█████████▀!            $▓                  $██▓▀▀   _£▀▀▀▀▓▀█▓█∩     
-▀█████▓▓▓▓▓▓▓██████▀              $█▄    +▄▄      ▄¡  $█ⁿ      ⁿ    ╙ⁿ ▐▓██▄    
- ▐█▓████▓▓▓▓▓▓▓▓█▄▄▄▄▄▄▄▄▄▄▄▄▄▄,  *▀█████▓▓ *▀    _▄▓█▓▓    _,       _   ▓██    
- ▐████▓███▓▓▓▓█████████████████j    `````▀▓       ▓███▓█▄▄▄▄"   φ▄▄▄▄"   ▓██    
- ▐█▓█████████████▓▓▓▓▓▓████▀▀▀           ▐▓       ▀▀▓█∩   ▐▓▀' _▓▓█▓▓    ▓██    
- ▐██▓▓▓▓██▓▓▓▓▓▓██████████`              ▐▓       ▄█▓█∩   ▐▓   ▓███▓▓    ▓██    
-   ▀██▓▓▓███████████████∩                1▀██████████▀'   ▐▓   ▀█▓█▓▓√√▄▓███    
-    `ⁿ█▓▓▓██████▓▓▓▓▓▓▓███__               ``````````     ▐▓_   $▓█'1█████▀     
-       ▀▀███████▓▓▓▓▓██▓▓▓███▄                            ▐▓▓▄√√▓▓█╓            
-              ░██▓▓▓▓██▓▓▓▓▓▓▓█j                            ███████             
+                                 ${AnsiColor.BLACK}        ▐▓▀▀▀▀▀▀▀▓██▄ ║▓▀▀▀▀▀▓▓▀▀▀█▓▄          
+                                 ${AnsiColor.BLACK}        ▐▓       ⁿ▀▓█∩║▓   ▄▓▓ⁿ   ░▓█          
+                                 ${AnsiColor.BLACK} _______▄▓       _▄▓█▄√▓_, ▀▀▓    ░▓█          
+                  ${AnsiColor.BLACK}▐▄▄j           ${AnsiColor.BLACK} $▓▓``````▄∩   +▄▓▀```"▓∩   ▐▓    ▓▓█          
+                 ${AnsiColor.BLACK}██${AnsiColor.GREEN}▓▓${AnsiColor.BLACK}██          ${AnsiColor.BLACK} $▓ *²           ▀y√  ║▓▓▓√√▄▓√√√▓███          
+               ${AnsiColor.BLACK}╔██${AnsiColor.GREEN}▓▓▓▓▓${AnsiColor.BLACK}█∩        ${AnsiColor.BLACK} $▓_               `   `_▐▓█████████__________ 
+              ${AnsiColor.BLACK}√▄████████▄▄▄      ${AnsiColor.BLACK} $▓▓▄√√√√√ √√√    ╓√√√√√█▓██j ▓▀▀▀▀▀▀▓▓█▓▀▀▓▓▓▄
+       ${AnsiColor.BLACK}___█████${AnsiColor.GREEN}▓▓${AnsiColor.BLACK}██${AnsiColor.GREEN}▓▓▓▓▓▓▓▓${AnsiColor.BLACK}█▄    ${AnsiColor.BLACK}  ▐██████▓░░▀    ▓█▓███████╙  ▓__ __        █▓█
+     ${AnsiColor.BLACK}╓▄██████████████${AnsiColor.GREEN}▓▓▓▓▓${AnsiColor.BLACK}█▀▀    ${AnsiColor.BLACK}        ▐▓       *▀▓█∩   ╓▄▄▄▄▓▓█▄*'        ░▓█
+    ${AnsiColor.BLACK}__█${AnsiColor.GREEN}▓▓▓${AnsiColor.BLACK}████████████${AnsiColor.GREEN}▓▓${AnsiColor.BLACK}██       ${AnsiColor.BLACK} ¥░░░░░░░▓░∩     _▐▓▀░░░░█▓   ▓__________$██▓██
+ ${AnsiColor.BLACK}+▄▄██${AnsiColor.GREEN}▓▓▓▓${AnsiColor.BLACK}███████▀ª ███▀         ${AnsiColor.BLACK} $▓  ╙º `ººy▄    ººº    ⁿ▀▓   º█████████████▀▀▀
+${AnsiColor.BLACK}██${AnsiColor.GREEN}▓▓${AnsiColor.BLACK}██${AnsiColor.GREEN}▓▓▓▓▓${AnsiColor.BLACK}█████████▀!           ${AnsiColor.BLACK} $▓                  $██▓▀▀   _£▀▀▀▀▓▀█▓█∩     
+${AnsiColor.BLACK}▀█████${AnsiColor.GREEN}▓▓▓▓▓▓▓${AnsiColor.BLACK}██████▀             ${AnsiColor.BLACK} $█▄    +▄▄      ▄¡  $█ⁿ      ⁿ    ╙ⁿ ▐▓██▄    
+ ${AnsiColor.BLACK}▐█${AnsiColor.GREEN}▓${AnsiColor.BLACK}████${AnsiColor.GREEN}▓▓▓▓▓▓▓▓${AnsiColor.BLACK}█▄▄▄▄▄▄▄▄▄▄▄▄▄▄, ${AnsiColor.BLACK} *▀█████▓▓ *▀    _▄▓█▓▓    _,       _   ▓██    
+ ${AnsiColor.BLACK}▐████${AnsiColor.GREEN}▓${AnsiColor.BLACK}███${AnsiColor.GREEN}▓▓▓▓${AnsiColor.BLACK}█████████████████j ${AnsiColor.BLACK}   `````▀▓       ▓███▓█▄▄▄▄"   φ▄▄▄▄"   ▓██    
+ ${AnsiColor.BLACK}▐█${AnsiColor.GREEN}▓${AnsiColor.BLACK}█████████████${AnsiColor.GREEN}▓▓▓▓▓▓${AnsiColor.BLACK}████▀▀▀   ${AnsiColor.BLACK}        ▐▓       ▀▀▓█∩   ▐▓▀' _▓▓█▓▓    ▓██    
+ ${AnsiColor.BLACK}▐██${AnsiColor.GREEN}▓▓▓▓${AnsiColor.BLACK}██${AnsiColor.GREEN}▓▓▓▓▓▓${AnsiColor.BLACK}██████████`      ${AnsiColor.BLACK}        ▐▓       ▄█▓█∩   ▐▓   ▓███▓▓    ▓██    
+   ${AnsiColor.BLACK}▀██${AnsiColor.GREEN}▓▓▓${AnsiColor.BLACK}███████████████∩        ${AnsiColor.BLACK}        1▀██████████▀'   ▐▓   ▀█▓█▓▓√√▄▓███    
+    ${AnsiColor.BLACK}`ⁿ█${AnsiColor.GREEN}▓▓▓${AnsiColor.BLACK}██████${AnsiColor.GREEN}▓▓▓▓▓▓▓${AnsiColor.BLACK}███__     ${AnsiColor.BLACK}          ``````````     ▐▓_   $▓█'1█████▀     
+       ${AnsiColor.BLACK}▀▀███████${AnsiColor.GREEN}▓▓▓▓▓${AnsiColor.BLACK}██${AnsiColor.GREEN}▓▓▓${AnsiColor.BLACK}███▄   ${AnsiColor.BLACK}                         ▐▓▓▄√√▓▓█╓            
+              ${AnsiColor.BLACK}░██${AnsiColor.GREEN}▓▓▓▓${AnsiColor.BLACK}██${AnsiColor.GREEN}▓▓▓▓▓▓▓${AnsiColor.BLACK}█j ${AnsiColor.BLACK}                           ███████             

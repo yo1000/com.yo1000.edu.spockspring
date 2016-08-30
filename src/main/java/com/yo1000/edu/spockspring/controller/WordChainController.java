@@ -1,7 +1,7 @@
-package com.yo1000.selfstudy.spockspring.controller;
+package com.yo1000.edu.spockspring.controller;
 
-import com.yo1000.selfstudy.spockspring.model.Word;
-import com.yo1000.selfstudy.spockspring.service.WordChainService;
+import com.yo1000.edu.spockspring.model.Word;
+import com.yo1000.edu.spockspring.service.WordChainService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
