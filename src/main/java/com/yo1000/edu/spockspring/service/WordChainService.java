@@ -40,12 +40,4 @@ public class WordChainService {
     public WordSplitter getWordSplitter() {
         return wordSplitter;
     }
-
-    public static class WordChainException extends RuntimeException {
-        public WordChainException() {}
-
-        public WordChainException(String s) {
-            super(s);
-        }
-    }
 }
