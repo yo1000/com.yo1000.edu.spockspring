@@ -54,4 +54,18 @@ class WordRepositorySpec extends Specification {
             prev = it
         }
     }
+
+    def "保存したデータを確認できること"() {
+        expect:
+        def updates = repository.save(text);
+        def item = repository.findAllOrderByCreatedDesc().get(0)
+
+        assert 1 == updates
+        assert text == item.text
+
+        where:
+        text    | _
+        'あああ' | _
+        'いいい' | _
+    }
 }

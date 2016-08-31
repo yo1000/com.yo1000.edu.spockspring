@@ -42,7 +42,7 @@ public class WordChainController {
             return "redirect:/word-chain";
         }
 
-        bindingResult.rejectValue("text", "Controller.word.text");
+        bindingResult.rejectValue("text", "NotChain");
         model.addAttribute("words", words);
         model.addAttribute("word", word);
         return "word-chain";
