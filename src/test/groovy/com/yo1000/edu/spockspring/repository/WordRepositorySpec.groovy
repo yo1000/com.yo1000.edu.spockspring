@@ -37,10 +37,11 @@ class WordRepositorySpec extends Specification {
     }
 
     def "日付の降順にデータが取得できること"() {
-        expect:
+        when:
         def words = repository.findAllOrderByCreatedDesc()
-        Word prev = null
 
+        then:
+        Word prev = null
         words.each {
             if (prev == null) {
                 prev = it
@@ -49,5 +50,20 @@ class WordRepositorySpec extends Specification {
             assert prev.created.getTime() > it.created.getTime()
             prev = it
         }
+    }
+
+    def "保存したデータを確認できること"() {
+        when:
+        def updates = repository.save(text)
+        def item = repository.findAllOrderByCreatedDesc().get(0)
+
+        then:
+        updates == 1
+        item.text == text
+
+        where:
+        text | _
+        'あああ' | _
+        'いいい' | _
     }
 }
