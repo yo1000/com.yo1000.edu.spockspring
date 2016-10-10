@@ -57,6 +57,36 @@ class WordChainServiceSpec extends Specification {
         ''       | Character.MIN_VALUE
     }
 
+    def "#from と #to はチェイン可能"() {
+        expect:
+        wordChainService.chainable(from, to)
+
+        where:
+        from   | to
+        'aaa'  | 'aaa'
+        'aiue' | 'eoeo'
+        'あいう'  | 'ううう'
+        'コーラ'  | 'ランチョンマット'
+        '*#$'  | '$!@'
+    }
+
+    def "#from と #to はチェイン不可"() {
+        expect:
+        !wordChainService.chainable(from, to)
+
+        where:
+        from  | to
+        'aab' | 'aaa'
+        'aiu' | 'eoeo'
+        'あい'  | 'ううう'
+        'コ'   | 'ランチョンマット'
+        '*#'  | '$!@'
+        'あい'  | ''
+        'あい'  | null
+        ''    | 'ううう'
+        null  | 'ううう'
+    }
+
     def w(String text, String created) {
         return new Word(
                 text: text,
