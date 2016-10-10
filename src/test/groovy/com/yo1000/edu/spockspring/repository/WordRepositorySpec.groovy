@@ -3,11 +3,11 @@ package com.yo1000.edu.spockspring.repository
 import com.ninja_squad.dbsetup.DbSetup
 import com.ninja_squad.dbsetup.Operations
 import com.ninja_squad.dbsetup.destination.Destination
+import com.yo1000.edu.spockspring.model.Word
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import spock.lang.Specification
 import spock.lang.Unroll
-
 
 @Unroll
 @SpringBootTest
@@ -34,6 +34,20 @@ class WordRepositorySpec extends Specification {
                         insertWords
                 )
         ).launch()
+    }
 
+    def "日付の降順にデータが取得できること"() {
+        expect:
+        def words = repository.findAllOrderByCreatedDesc()
+        Word prev = null
+
+        words.each {
+            if (prev == null) {
+                prev = it
+                return
+            }
+            assert prev.created.getTime() > it.created.getTime()
+            prev = it
+        }
     }
 }
