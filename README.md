@@ -65,6 +65,19 @@ class HogeSpec extends Specification {
 }
 ```
 
+# Getting started
+
+masterブランチにはテストの練習になるコードが実装されています。  
+テストコードを実際に書いてみることで、Spockの基本的な使い方を抑えられるようになっています。
+
+spock-testingブランチには実際のテストコードのサンプルが実装されています。  
+こちらを参考に進めてみてください。
+
+テストコードはどのクラスから書き始めても構いませんが、下記の順を推奨しています。
+
+1. util
+1. service
+1. controller or repository
 
 # DbSetup
 
